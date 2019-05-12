@@ -5,6 +5,6 @@
 This is the description
 
 ## API Documentation
-[Documentation](TimeEventApi.html)
+[Documentation](http://htmlpreview.github.com/?https://github.com/cmaiser/time-keeping-api/blob/master/TimeEventApi.html)
 
 ## Example Usage
