@@ -5,8 +5,8 @@
 The API allows CRUD operation for "time events" which represent actions a user would make on a time card.  Actions are stored in a reference  table ACTION with names such as "Clock In", "Clock Out", etc.  The relationships are as follows:
 * An employee (EMPLOYEE) can have 0-to-many pay periods (PAY_PERIOD)
 * A pay period can have 0-to-many time card events (TIME_EVENT)
-* Different time events are represented via FK TIME_EVENT.ACTION_KEY
-* Internal logic will handle inserting new PAY_PERIOD records based on pre-defined thresholds and associating time events with the current pay period.  
+* Different time event types are represented via FK TIME_EVENT.ACTION_KEY
+* Internal logic will handle inserting new PAY_PERIOD records based on pre-defined thresholds and associating time events with the appropriate (probably current) pay period.  
 
 ## API Documentation
 [Documentation](http://htmlpreview.github.com/?https://github.com/cmaiser/time-keeping-api/blob/master/TimeEventApi.html)
