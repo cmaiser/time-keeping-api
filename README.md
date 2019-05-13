@@ -2,7 +2,7 @@
 ## Data Model
 [Entity Relationship Diagram](TimeEventDataModel.pdf)
 ### Summary
-The API allows CRUD operation for "time events" which represent actions a user would make on a time card.  Actions are stored in a reference  table ACTION with names such as "Clock In", "Clock Out", etc.  The relationships are as follows:
+The API allows CRUD operation for "time events" which represent actions a user would make on a time card.  Actions options are stored in a reference table ACTION with names such as "Clock In", "Clock Out", etc.  The relationships are as follows:
 * An employee (EMPLOYEE) can have 0-to-many pay periods (PAY_PERIOD)
 * A pay period can have 0-to-many time card events (TIME_EVENT)
 * Different time event types are represented via FK TIME_EVENT.ACTION_KEY
